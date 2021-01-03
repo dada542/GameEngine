@@ -62,3 +62,5 @@ Engine.prototype = {
     }
 
 }
+
+export { Engine };
