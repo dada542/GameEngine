@@ -27,6 +27,8 @@ const Display = function(canvas) {
         this.render();
 
     }
+    
+    this.handleResize = (event) => { this.resize(event); }
 
 }
 
