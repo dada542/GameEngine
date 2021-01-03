@@ -20,6 +20,8 @@ const Game = function() {
             this.shifts[i] = shift;
 
         }
+        
+        this.color = `rgb(${this.colors[0]},${this.colors[1]},${this.colors[2]})`;
 
     }
 
